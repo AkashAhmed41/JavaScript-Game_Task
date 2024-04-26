@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  background-color: rgb(25, 53, 95);
+  color: white;
+}
+
+h1 {
+  margin: 1rem;
+}
+
+button {
+  background-color: white;
+  color: black;
+  height: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.level-tracker {
+  background-color: rgb(4, 85, 85);
+  margin: 0;
+  padding: 1rem;
+  margin-bottom: 3rem;
+}
+
+.current {
+  margin-top: 4rem;
+}
+
+.score-tracking {
+  margin-top: 4rem;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.score-circle {
+  width: 2rem;
+  height: 2rem;
+  background-color: white;
+  border-radius: 50%;
+  margin: 0.5rem;
+  display: inline-block;
+}
